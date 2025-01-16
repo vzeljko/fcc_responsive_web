@@ -8,6 +8,35 @@
 	</head>
 	<body>
 		<h1 id="title">Brevet Registration Form</h1>
+		<p id="description">Registration for our brevets</p>
+		
+		<form id="survey-form">
+			<label for="name" id="name-label">
+				<input id="name" type="text" placeholder="Your name..." required></label>
+			<label for="email" id="email-label">
+				<input id="email" type="email" placeholder="Your email..." required></label>
+			<label for="number" id="number-label">
+				<input id="number" type="text" min="18" max="120"></label>
+			
+			<input type="radio" name="radio-group"> First radio
+			<input type="radio" name="radio-group"> Second radio
+
+			<input type="checkbox" value="first-checkbox"> First checkbox
+			<input type="checkbox" value="second-checkbox"> Second checkbox
+			<input type="checkbox" value="third-checkbox"> Third checkbox
+
+
+			<select id="dropdown">
+				<option value="1"></option>
+				<option value="2"></option>
+				<option value="3"></option>
+			</select>
+
+			<textarea rows="5" cols="30" placeholder="Additional connents"></textarea>
+
+			<button type="submit" id="submit">Submit</button>
+		</form>
+
 
 	</body>
 </html>
